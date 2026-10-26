@@ -1,0 +1,6 @@
+# 核心功能（GUI、监听、刻录、回补）只用 Python 标准库，无需安装任何包。
+#
+# 只有「录屏」这个可选功能需要下面两个依赖：
+#   pip install -r requirements.txt
+mss>=9.0
+opencv-python>=4.8

@@ -1,0 +1,23 @@
+# 采集到的数据一律不入库（里面是别人的聊天记录和邮件摘要）
+logs/
+recovered/
+recordings/
+*.csv
+*.jsonl
+*.xlsx
+!docs/**
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
